@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio nischal</title>
+  <link rel="stylesheet" href="./info.css">
+  <script src="https://kit.fontawesome.com/b5ec28a7bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="images/Nischal CV.pdf" download class="btn btn2">Download CV</a>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h4>Student / Web - Developer</h4>
+          <h1 class="typing-text">Hi, I'm <span>Nischal</span><br>Shrestha and I am a BIM Student</h1>
+        </div>
+    </div>
+</div>
+<!---------------about-------------->
+<div class="about">
+   <div class="container">
+      <div class="row">
+          <div class="about-col-1">
+              <img src="images/profile.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Hello Everyone ! My name is Nischal Shrestha,I am 5th Sem studnet from Nagarjuna College of IT . I am from Teku,kathmandu . 
+I am interested in Web developing and Graphics Designing . I am also very much interestedin photography , videography and content creating .
+              </p>
+              <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                  <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                  <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+              </div>
+              <div class="tab-contents active-tab" id="Education">
+                  <ul>
+                      <li><span>SEE From</span><br>Arniko Boarding School</li>
+                      <li><span>+2 From</span><br>Uniglobe College</li>
+                      <li><span>Bachelors Currently</span><br>Nagarjuna College Of IT</li>
+                  </ul>
+              </div>
+              <div class="tab-contents" id="Hobbies">
+                <ul>
+                    <li><span>Technical </span><br>Gaming,Programming,Animating</li>
+                    <li><span>Creativity</span><br>photography,Videography,Designing,Editing</li>
+                    <li><span>Entertainment</span><br>Singing,Dancing,Cooking,</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Skills">
+              <ul>
+                  <li><span>Designing</span><br>Graphics Designing , Photoshop , Editing</li>
+                  <li><span>Web Development</span><br>HTML , CSS , Java-Script , Designe Websites</li>
+                  <li><span>Data Analysis</span><br>Excel , Python , Statical Analysis , data Manipulation</li>
+              </ul>
+          </div>
+          </div>
+        </div>
+   </div>
+<!------portfolio---------->
+<div class="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Photography</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/photo1.jpg">
+            <div class="layer">
+                <h3>Swyambhunath</h3>
+                <p>Swayambhu is an ancient religious complex atop a hill in the Kathmandu Valley, west of Kathmandu city.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+          <img src="images/photo2.jpg">
+          <div class="layer">
+            <h3>Bishnudwar</h3>
+            <p>Bishnudwar is basically the origin of the Bishnumati river which is one of the most important rivers in Kathmandu. </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/photo3.jpg">
+        <div class="layer">
+        <h3>Red Rose</h3>
+        <p>Red roses have long been associated with love due to their vibrant red color, which symbolizes passion and strong emotions.</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> Shresthanischal456@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 977+9860397374</p>
+                <p><i class="fa-sharp fa-solid fa-location-dot"></i> Bhotebahal , Kathmandu </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Nischal1o1"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Shrestha_101"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/shrestha__nischal/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://discord.com/nischal#4842"><i class="fa-brands fa-discord"></i></a>
+                </div> 
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+</div>  
+  <div class="copyright">
+      <p>Copyright © Shrestha Nischal <i class="fa-solid fa-heart"></i> using HTML , CSS , Java-Script</p>
+  </div>
+</div>  
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbyqQ047Pm10Xzox_JiWsWx1I5DgBOVhe3vpxLRoiRrXv8UeBlXLMc3EEIt_kO2ND867/exec>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
